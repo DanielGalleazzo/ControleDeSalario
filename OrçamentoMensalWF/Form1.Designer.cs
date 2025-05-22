@@ -45,7 +45,9 @@
             GastosFixosLB = new Label();
             AlimentacaoLB = new Label();
             LazerLB = new Label();
-            label11 = new Label();
+            InvestLabel = new Label();
+            RespostaSim = new Label();
+            ValorRespostaSim = new TextBox();
             SuspendLayout();
             // 
             // OrcamentoInicial
@@ -197,14 +199,31 @@
             LazerLB.TabIndex = 17;
             LazerLB.Click += LazerLB_Click;
             // 
-            // label11
+            // InvestLabel
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(502, 150);
-            label11.Name = "label11";
-            label11.Size = new Size(26, 15);
-            label11.TabIndex = 18;
-            label11.Text = "INV";
+            InvestLabel.AutoSize = true;
+            InvestLabel.Location = new Point(502, 150);
+            InvestLabel.Name = "InvestLabel";
+            InvestLabel.Size = new Size(0, 15);
+            InvestLabel.TabIndex = 18;
+            // 
+            // RespostaSim
+            // 
+            RespostaSim.AutoSize = true;
+            RespostaSim.Location = new Point(34, 276);
+            RespostaSim.Name = "RespostaSim";
+            RespostaSim.Size = new Size(55, 15);
+            RespostaSim.TabIndex = 19;
+            RespostaSim.Text = "Quanto ?";
+            RespostaSim.Click += RespostaSim_Click;
+            // 
+            // ValorRespostaSim
+            // 
+            ValorRespostaSim.Location = new Point(34, 294);
+            ValorRespostaSim.Name = "ValorRespostaSim";
+            ValorRespostaSim.Size = new Size(196, 23);
+            ValorRespostaSim.TabIndex = 20;
+            ValorRespostaSim.TextChanged += ValorRespostaSim_TextChanged;
             // 
             // Form1
             // 
@@ -212,7 +231,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(800, 450);
-            Controls.Add(label11);
+            Controls.Add(ValorRespostaSim);
+            Controls.Add(RespostaSim);
+            Controls.Add(InvestLabel);
             Controls.Add(LazerLB);
             Controls.Add(AlimentacaoLB);
             Controls.Add(GastosFixosLB);
@@ -257,6 +278,8 @@
         private Label GastosFixosLB;
         private Label AlimentacaoLB;
         private Label LazerLB;
-        private Label label11;
+        private Label InvestLabel;
+        private Label RespostaSim;
+        private TextBox ValorRespostaSim;
     }
 }

@@ -14,3 +14,4 @@ C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-wi
 C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.pdb
 C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.genruntimeconfig.cache
 C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\ref\OrçamentoMensalWF.dll
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.sourcelink.json
