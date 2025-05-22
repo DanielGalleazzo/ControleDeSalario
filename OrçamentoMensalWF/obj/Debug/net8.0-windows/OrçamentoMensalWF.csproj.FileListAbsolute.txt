@@ -1,0 +1,16 @@
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\bin\Debug\net8.0-windows\OrçamentoMensalWF.exe
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\bin\Debug\net8.0-windows\OrçamentoMensalWF.deps.json
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\bin\Debug\net8.0-windows\OrçamentoMensalWF.runtimeconfig.json
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\bin\Debug\net8.0-windows\OrçamentoMensalWF.dll
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\bin\Debug\net8.0-windows\OrçamentoMensalWF.pdb
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.Form1.resources
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.csproj.GenerateResource.cache
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.AssemblyInfo.cs
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.dll
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\refint\OrçamentoMensalWF.dll
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.pdb
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\OrçamentoMensalWF.genruntimeconfig.cache
+C:\Users\danie\Desktop\OrçamentoMensalWF\OrçamentoMensalWF\obj\Debug\net8.0-windows\ref\OrçamentoMensalWF.dll
