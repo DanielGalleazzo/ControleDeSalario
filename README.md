@@ -10,6 +10,3 @@ Este é um projeto simples desenvolvido em C# com Windows Forms, com o objetivo 
 🔹 C# (.NET Framework)
 🔹 Windows Forms
 🔹 Visual Studio
-
-
-💸 🤑 💶 💰
