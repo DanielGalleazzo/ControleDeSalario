@@ -48,6 +48,7 @@
             InvestLabel = new Label();
             RespostaSim = new Label();
             ValorRespostaSim = new TextBox();
+            BotaoExportar = new Button();
             SuspendLayout();
             // 
             // OrcamentoInicial
@@ -225,12 +226,23 @@
             ValorRespostaSim.TabIndex = 20;
             ValorRespostaSim.TextChanged += ValorRespostaSim_TextChanged;
             // 
+            // BotaoExportar
+            // 
+            BotaoExportar.Location = new Point(502, 342);
+            BotaoExportar.Name = "BotaoExportar";
+            BotaoExportar.Size = new Size(196, 62);
+            BotaoExportar.TabIndex = 21;
+            BotaoExportar.Text = "Exportar para txt";
+            BotaoExportar.UseVisualStyleBackColor = true;
+            BotaoExportar.Click += BotaoExportar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(800, 450);
+            Controls.Add(BotaoExportar);
             Controls.Add(ValorRespostaSim);
             Controls.Add(RespostaSim);
             Controls.Add(InvestLabel);
@@ -281,5 +293,6 @@
         private Label InvestLabel;
         private Label RespostaSim;
         private TextBox ValorRespostaSim;
+        private Button BotaoExportar;
     }
 }

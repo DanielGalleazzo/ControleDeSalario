@@ -46,10 +46,7 @@ namespace OrçamentoMensalWF
                 AlimentacaoLB.Text = "Você gasta aproximadamente com alimentação R$: " + alimentacao;
                 LazerLB.Text = "Você gasta aproximadamente com lazer R$: " + lazer;
             }
-            else
-            {
-                GastosFixosLB.Text = "Só é aceito números";
-            }
+
 
             if (InvesteText.Text.Equals("Sim", StringComparison.OrdinalIgnoreCase))
             {
@@ -66,6 +63,11 @@ namespace OrçamentoMensalWF
                     InvestLabel.Visible = true;
                     InvestLabel.Text = "Digite um valor numérico válido para investimento.";
                 }
+            }
+            if (InvesteText.Text.Equals("Não", StringComparison.OrdinalIgnoreCase))
+            {
+                InvestLabel.Visible = true;
+                InvestLabel.Text = "Sugestão de investimento R$:" + salario * 0.20;
             }
             else
             {
@@ -115,7 +117,7 @@ namespace OrçamentoMensalWF
             {
                 RespostaSim.Visible = false;
                 ValorRespostaSim.Visible = false;
-                InvestLabel.Text = ""; 
+                InvestLabel.Text = "";
             }
         }
 
@@ -146,6 +148,39 @@ namespace OrçamentoMensalWF
             else
             {
                 InvestLabel.Text = "Digite um valor numérico válido para investimento.";
+            }
+        }
+
+        private void BotaoExportar_Click(object sender, EventArgs e)
+        {
+
+            string conteudo = "Relatório Financeiro";
+            conteudo += "Salário Inicial R$: " + SalarioInicial;
+            conteudo += " Gastos Fixos R$: " + GastosFixos;
+            conteudo += " Alimentação R$: "+ Alimentacao;
+            conteudo += " Lazer R$: " + Lazer;
+
+            if (InvesteText.Text.Equals("Sim", StringComparison.OrdinalIgnoreCase))
+            {
+                conteudo += " Investimento Mensal R$:" + ValorRespostaSim.Text;
+            }
+            else if (InvesteText.Text.Equals("Não", StringComparison.OrdinalIgnoreCase))
+            {
+                if (int.TryParse(SalarioInicial, out int salario))
+                {
+                    conteudo += " Sugestão de Investimento  R$: "+ salario * 0.20;
+                }
+            }
+
+            SaveFileDialog salvarDialogo = new SaveFileDialog();
+            salvarDialogo.Filter = "Arquivo de Texto (*.txt)|*.txt";
+            salvarDialogo.Title = "Salvar Relatório Financeiro";
+            salvarDialogo.FileName = "relatorio_financeiro.txt";
+
+            if (salvarDialogo.ShowDialog() == DialogResult.OK)
+            {
+                    File.WriteAllText(salvarDialogo.FileName, conteudo);
+                    MessageBox.Show("Relatório exportado com sucesso!", "Exportação", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

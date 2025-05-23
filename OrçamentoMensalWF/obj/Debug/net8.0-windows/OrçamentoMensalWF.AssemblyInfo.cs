@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrçamentoMensalWF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdde3bd0931b3c223cb744eabea77b31d1d6365b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a1a54e4cd7a2d3f382bb6aa5c7138cea2750789")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrçamentoMensalWF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrçamentoMensalWF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
